@@ -8,11 +8,11 @@ main (){
 	SetConsoleOutputCP(CP_UTF8);
 	
 	int cant;
-	cout << "Ingrese la cantidad de productos: \n";
+	cout << "Ingrese la cantidad de productos: ";
 	cin >> cant;
 	
 	int prec;
-	cout << "Ingrese el precio del producto: \n";
+	cout << "Ingrese el precio del producto: $";
 	cin >> prec;
 	
 	int subTotal = cant * prec ;
